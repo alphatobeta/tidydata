@@ -1,11 +1,19 @@
 Package: tidydata
-Title: tidy data for regression analysis
+Type: Package
+Title: Simple Tools for Checking and Tidying Data
 Version: 0.0.1
-Authors@R: person("Jun", "Cheng", email = "cheng081@qq.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.4.0)
-Imports: stringr (>= 1.2.0)
-License: MIT + file LICENSE
+Authors@R: person("Jun", "Cheng", role = c("aut", "cre"), email = "cheng081@qq.com")
+Maintainer: Jun Cheng <cheng081@qq.com>
+Description: Simple and powerful used functions for analyzing data.
+Depends: R (>= 3.4.3)
+Imports: stringr (>= 1.2.0),
+        data.table (>= 1.10.5)
+Suggests: dplyr,
+    knitr,
+    rmarkdown,
+    testthat
+License: MIT
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+VignetteBuilder: knitr
