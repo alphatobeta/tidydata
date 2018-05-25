@@ -1,4 +1,4 @@
 library(testthat)
-library(tidydata)
+library(tidytools)
 
-test_check("tidydata")
+test_check("tidytools")

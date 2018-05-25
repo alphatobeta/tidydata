@@ -1,17 +1,19 @@
-Package: tidydata
+Package: tidytools
 Type: Package
-Title: Simple Tools for Checking and Tidying Data
+Title: tools for data science
 Version: 0.0.1
 Authors@R: person("Jun", "Cheng", role = c("aut", "cre"), email = "cheng081@qq.com")
 Maintainer: Jun Cheng <cheng081@qq.com>
-Description: Simple and powerful used functions for analyzing data.
-Depends: R (>= 3.4.3)
-Imports: stringr (>= 1.2.0),
-        data.table (>= 1.10.5)
-Suggests: dplyr,
-    knitr,
-    rmarkdown,
-    testthat
+Description: Simple and powerful used functions for data science.
+Depends: R (>= 3.5.0)
+Imports:stringr (>= 1.2.0),
+        data.table (>= 1.11.3),
+        magrittr (>= 1.5),
+        rvest (>= 0.3.2),
+        xml2 (>= 1.2.0),
+        tibble (>= 1.4.2)
+Suggests: testthat,
+    knitr
 License: MIT
 Encoding: UTF-8
 LazyData: true

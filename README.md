@@ -1,8 +1,8 @@
-﻿# tidydata
-Simple Tools for Checking and Tidying Data
+# tidytools
+数据清洗小工具。
 
-# Installation
+# 安装
 ```R
 # install.packages("devtools")
-devtools::install_github("chengjun90/tidydata")
+devtools::install_github("chengjun90/tidytools")
 ```
